@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <h1>Hello</h1>
+        <h3>Welcome to my shiny new blog about using Flask and Python.</h3>
+        {% for post in posts %}
+        <div>
+            <p>{{ post.author.username }} typed: <br />
+            {{ post.body }}</p>
+        </div>
+        {% endfor %}
+{% endblock %}
