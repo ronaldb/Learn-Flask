@@ -1,3 +1,5 @@
+{% extends 'bootstrap/base.html' %}
+
 <html>
     <head>
         {% if title %}
@@ -7,7 +9,17 @@
         {% endif %}
     </head>
     <body>
-        <div>My Flask Blog: <a href='/index'>Home</a> | <a href='/about'>About Me</a></div>
-        {% block content %}{% endblock %}
+
+        {% block navbar %}
+        <div class="container"
+            <div class="navbar navbar-fixed-top">
+               <h3> My Flask Blog: <a href='/index'>Home</a> | <a href='/about'>About Me</a></h3>
+            </div>
+        </div>
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
     </body>
 </html>
