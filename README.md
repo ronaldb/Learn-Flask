@@ -8,6 +8,16 @@ The site is hosted on [Python Anywhere](https://www.pythonanywhere.com/) using a
 
 [http://darrell57.pythonanywhere.com/index](http://darrell57.pythonanywhere.com/index)
 
+root/
+|   flask_app.py
+|__app/
+   |   __init__.py
+   |  routes.py
+   |__templates/
+      |   base.html
+      |   about.html
+      |   index.html
+
 ## Other Resources
 
 [The New and Improved Flask Mega-Tutorial](https://courses.miguelgrinberg.com/)
