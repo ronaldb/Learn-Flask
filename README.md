@@ -14,6 +14,8 @@ The site is hosted on [Python Anywhere](https://www.pythonanywhere.com/) using a
 
 [Setting up Flask applications on PythonAnywhere](https://help.pythonanywhere.com/pages/Flask/)
 
+[Beginners Guide to Building a Simple Database-Backed Flask Website on PythonAnywhere](https://blog.pythonanywhere.com/121/)
+
 ## Have fun and enjoy learning Python! 
 
 Proudly hosted on GitHub :octocat:
